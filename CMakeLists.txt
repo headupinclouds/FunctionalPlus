@@ -110,15 +110,15 @@ install(
 )
 
 # Config
-#   * <prefix>/lib/cmake/fplus/fplusConfig.cmake
-#   * <prefix>/lib/cmake/fplus/fplusConfigVersion.cmake
+#   * <prefix>/lib/cmake/FunctionalPlus/FunctionalPlusConfig.cmake
+#   * <prefix>/lib/cmake/FunctionalPlus/FunctionalPlusConfigVersion.cmake
 install(
     FILES "${project_config}" "${version_config}"
     DESTINATION "${config_install_dir}"
 )
 
 # Config
-#   * <prefix>/lib/cmake/fplus/fplusTargets.cmake
+#   * <prefix>/lib/cmake/FunctionalPlus/FunctionalPlusTargets.cmake
 install(
     EXPORT "${TARGETS_EXPORT_NAME}"
     NAMESPACE "${namespace}"
